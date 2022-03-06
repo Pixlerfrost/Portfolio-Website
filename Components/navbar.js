@@ -52,6 +52,9 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
+          <NextLink href="/about" >
+            <a>About</a>
+          </NextLink>
           <NextLink href="/works" >
             <a>Works</a>
           </NextLink>
