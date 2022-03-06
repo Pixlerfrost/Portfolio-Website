@@ -15,6 +15,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from '../Components/theme-toggle-button'
+import Logo from '../Components/logo'
 
 
 const LinkItem = ({ href, path, children}) => {
@@ -40,7 +41,7 @@ const Navbar = props => {
     <Container display="flex" p={2} maxW="container.md" wrap="wrap" align="center" justify="space-between" >
       <Flex align="center" mr={5} >
         <Heading as="h1" size="md" mb={1} letterSpacing={'tighter'}>
-          Mohamad Youness
+          <Logo />
         </Heading>
       </Flex>
        <Stack

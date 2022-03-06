@@ -3,6 +3,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import Layout from '../Components/main'
 import theme from '../Components/theme'
 import Fonts from '../Components/fonts'
+import '../styles/globals.css'
 
 
 const Website = ({Component, pageProps, router }) => {
