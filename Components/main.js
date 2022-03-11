@@ -8,8 +8,8 @@ const Main = ({router, children}) => {
    <Head>
     <meta name="viewport" content="width=device-width, initial-scale=1 "/>
     <title>Mohamad Youness - HomePage</title>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <meta name="description" content="Mohamad's homepage" />
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon" />
    </Head>
 
    <Navbar path={router.asPath} />

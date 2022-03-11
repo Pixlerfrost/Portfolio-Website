@@ -1,4 +1,6 @@
 import NextLink from 'next/link'
+
+
 import {
  Container, 
  Box, 
@@ -56,10 +58,10 @@ const Navbar = props => {
             <a>About</a>
           </NextLink>
           <NextLink href="/works" >
-            <a>Works</a>
+            <a className='m'>Works</a>
           </NextLink>
-          <NextLink href="/posts" >
-            <a>Posts</a>
+          <NextLink href="/Posts" >
+            <a className='m'>Posts</a>
           </NextLink>
         </Stack>
         
@@ -80,7 +82,7 @@ const Navbar = props => {
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
+                <NextLink href="/Posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
               </MenuList>
