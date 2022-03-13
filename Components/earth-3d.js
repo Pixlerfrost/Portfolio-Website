@@ -76,7 +76,7 @@ const Earth3d = () => {
    controls.target = target
    setControls(controls)
 
-   loadGLTFModel(scene, '/earth.glb', {
+   loadGLTFModel(scene, '/earth.gltf', {
     receiveShadow: false,
     castShadow: false
    }).then(() => {
