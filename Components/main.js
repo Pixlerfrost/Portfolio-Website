@@ -1,7 +1,15 @@
 import { Box, Container } from '@chakra-ui/react'
 import Head from 'next/head'
 import Navbar from '../Components/navbar'
-import Earth3d from '../Components/earth-3d'
+import EarthLoader from '../Components/earth-3d-loader'
+import dynamic from 'next/dynamic'
+
+
+const Earth3d = dynamic(() => import('../Components/earth-3d'), {
+  ssr: false,
+  loading: () => <EarthLoader />
+})
+
 
 const Main = ({ router, children }) => {
   return (
@@ -16,8 +24,8 @@ const Main = ({ router, children }) => {
       <Navbar path={router.asPath} />
 
       <Container maxW="container.md" pt={14}>
-        {children}
         <Earth3d />
+        {children}
       </Container>
     </Box>
   )
