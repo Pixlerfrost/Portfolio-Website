@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Navbar from '../Components/navbar'
 import EarthLoader from '../Components/earth-3d-loader'
 import dynamic from 'next/dynamic'
+import Footer from '../Components/footer'
 
 
 const Earth3d = dynamic(() => import('../Components/earth-3d'), {
@@ -32,6 +33,8 @@ const Main = ({ router, children }) => {
       <Box>
 
         {children}
+
+        <Footer />
       </Box>
     </>
 
