@@ -1,8 +1,8 @@
 import { Box, Container, Heading, Image, useColorModeValue, Button } from "@chakra-ui/react"
 import Paragraph from '../Components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import NextLink from 'next/link'
 import Section from '../components/section'
+import { BioSection, BioYear } from '../components/bio'
 
 
 function Page() {
@@ -42,11 +42,11 @@ function Page() {
           Mohamad Youness is a front-end developer thats based in the U.S. He is a passionate programmer and aspires to become a Freelancer. In his free time he likes to play sports and watch Anime/tv.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works" scroll={false}>
+          <Paragraph href="/works" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
-          </NextLink>
+          </Paragraph>
         </Box>
       </Section>
 
@@ -55,25 +55,44 @@ function Page() {
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2008</BioYear>
+          Born in Lebanon, Beirut.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2014</BioYear>
+          Started getting into all sorts of Technology, like Robots, Electrical Circuits etc.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2019</BioYear>
+          Started Coding in Java.
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Works as a freelance
+          <BioYear>Mid 2019 to present</BioYear>
+          Learned Python, Html, Css, JavaScript, Django and a couple JavaScript Frameworks.
         </BioSection>
       </Section>
-    </Container>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          I ♥
+        </Heading>
+        <Paragraph>
+          Art,
+        </Paragraph>
+        <Paragraph>
+          Music,
+        </Paragraph>
+        <Paragraph>
+          Playing Flute,
+        </Paragraph>
+        <Paragraph>
+          3d Animating/Modeling,
+        </Paragraph>
+        <Paragraph>
+          Machine Learning
+        </Paragraph>
+      </Section>
+    </Container >
   )
 }
 
