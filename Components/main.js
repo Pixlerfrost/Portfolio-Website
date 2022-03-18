@@ -1,4 +1,4 @@
-import { Box, Container } from '@chakra-ui/react'
+import { Box, Container, Flex } from '@chakra-ui/react'
 import Head from 'next/head'
 import Navbar from '../Components/navbar'
 import EarthLoader from '../Components/earth-3d-loader'
