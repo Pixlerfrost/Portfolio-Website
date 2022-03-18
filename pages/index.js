@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Image, useColorModeValue, Button, SimpleGrid, List, ListItem } from "@chakra-ui/react"
+import { Box, Container, Heading, Image, useColorModeValue, Button, List, ListItem } from "@chakra-ui/react"
 import Paragraph from '../Components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
@@ -45,11 +45,11 @@ function Page() {
           Mohamad Youness is a front-end developer thats based in the U.S. He is a passionate programmer and aspires to become a Freelancer. In his free time he likes to play sports and watch Anime/tv.
         </Paragraph>
         <Box align="center" my={4}>
-          <Paragraph href="/works" scroll={false}>
+          <Link href="/works" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
-          </Paragraph>
+          </Link>
         </Box>
       </Section>
 
