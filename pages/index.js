@@ -1,8 +1,11 @@
-import { Box, Container, Heading, Image, useColorModeValue, Button } from "@chakra-ui/react"
+import { Box, Container, Heading, Image, useColorModeValue, Button, SimpleGrid, List, ListItem } from "@chakra-ui/react"
 import Paragraph from '../Components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import { BioSection, BioYear } from '../components/bio'
+import Link from 'next/link'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+
 
 
 function Page() {
@@ -91,6 +94,55 @@ function Page() {
         <Paragraph>
           Machine Learning
         </Paragraph>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          On the web
+        </Heading>
+        <List>
+          <ListItem>
+            <Link href="https://github.com/Pixlerfrost" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoGithub />}
+              >
+                GitHub
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://twitter.com/Pixlerfrost" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTwitter />}
+              >
+                Twitter
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://instagram.com/mohamad__youness" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoInstagram />}
+              >
+                Instagram
+              </Button>
+            </Link>
+          </ListItem>
+        </List>
+
+        <Box align="center" my={4}>
+          <Link href="/posts" scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              My posts
+            </Button>
+          </Link>
+        </Box>
       </Section>
     </Container >
   )
