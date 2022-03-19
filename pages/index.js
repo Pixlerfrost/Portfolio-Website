@@ -7,7 +7,6 @@ import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import { BioSection, BioYear } from '../components/bio'
 import Section from '../components/section'
 
-
 function Page() {
   return (
     <Container>
