@@ -71,7 +71,7 @@ function Page() {
         </BioSection>
         <BioSection>
           <BioYear>Mid 2019 to present</BioYear>
-          Learned Python, Html, Css, JavaScript, Django and a couple JavaScript Frameworks.
+          Learned Python, Html, Css, JavaScript, Django and a couple of JavaScript Frameworks.
         </BioSection>
       </Section>
 
@@ -92,7 +92,16 @@ function Page() {
           3d Animating/Modeling,
         </Paragraph>
         <Paragraph>
-          Machine Learning
+          Machine Learning,
+        </Paragraph>
+        <Paragraph>
+          Coding,
+        </Paragraph>
+        <Paragraph>
+          FootBall/Soccer,
+        </Paragraph>
+        <Paragraph>
+          Wrestling
         </Paragraph>
       </Section>
 

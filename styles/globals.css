@@ -6,3 +6,7 @@ a {
   padding-inline: 7px;
   padding-bottom: 3px;
 }
+
+.c {
+  padding-right: 0;
+}

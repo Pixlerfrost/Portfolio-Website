@@ -18,20 +18,9 @@ import {
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from '../Components/theme-toggle-button'
 import Logo from '../Components/logo'
+import { IoLogoGithub } from 'react-icons/io5'
 
 
-const LinkItem = ({ href, path, children }) => {
-  const active = path === href
-  const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
-
-  return (
-    <NextLink href={href}>
-      <Link p={2} bg={active ? '#202023' : inactiveColor} >
-        {children}
-      </Link>
-    </NextLink>
-  )
-}
 
 
 
@@ -55,11 +44,17 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <NextLink href="/works" >
-            <a className='m'>Works</a>
+            <a className='a'>Works</a>
           </NextLink>
           <NextLink href="/posts" >
-            <a className='m'>Posts</a>
+            <a className='b'>Posts</a>
           </NextLink>
+          <NextLink href="https://github.com/Pixlerfrost/Portfolio-Website">
+            <a className='c'>Source</a>
+          </NextLink>
+          <IoLogoGithub />
+
+
         </Stack>
 
         <Box flex={1} align="right">
