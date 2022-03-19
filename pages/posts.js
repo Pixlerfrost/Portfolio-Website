@@ -2,7 +2,7 @@ import { Button, Container, Heading, Section, List, ListItem, Box } from "@chakr
 import Paragraph from '../Components/paragraph'
 import Link from 'next/link'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+
 function Posts() {
 
 
