@@ -15,7 +15,7 @@ function Posts() {
     Posts
    </Heading>
    <Paragraph>
-    No Posts as of right now, but make sure to follow my socials to get updated if I ever do.
+    No Posts as of right now, but make sure to follow my Socials to be updated if I ever do.
    </Paragraph>
 
 
