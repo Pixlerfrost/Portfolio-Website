@@ -45,7 +45,7 @@ function Page() {
           Mohamad Youness is a front-end developer thats based in the U.S. He is a passionate programmer and aspires to become a Freelancer. In his free time he likes to play sports and watch Anime/tv.
         </Paragraph>
         <Box align="center" my={4}>
-          <Link href="/works" scroll={false}>
+          <Link href="/works" scroll={false} passHref>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
@@ -111,7 +111,7 @@ function Page() {
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/Pixlerfrost" target="_blank">
+            <Link href="https://github.com/Pixlerfrost" target="_blank" passHref>
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -122,7 +122,7 @@ function Page() {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/Pixlerfrost" target="_blank">
+            <Link href="https://twitter.com/Pixlerfrost" target="_blank" passHref>
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -133,7 +133,7 @@ function Page() {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/mohamad__youness" target="_blank">
+            <Link href="https://instagram.com/mohamad__youness" target="_blank" passHref>
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -146,7 +146,7 @@ function Page() {
         </List>
 
         <Box align="center" my={4}>
-          <Link href="/posts" scroll={false}>
+          <Link href="/posts" scroll={false} passHref>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My posts
             </Button>

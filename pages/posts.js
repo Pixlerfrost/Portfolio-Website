@@ -25,7 +25,7 @@ function Posts() {
    </Heading>
    <List>
     <ListItem>
-     <Link href="https://github.com/Pixlerfrost" target="_blank">
+     <Link href="https://github.com/Pixlerfrost" target="_blank" passHref>
       <Button
        variant="ghost"
        colorScheme="teal"
@@ -36,7 +36,7 @@ function Posts() {
      </Link>
     </ListItem>
     <ListItem>
-     <Link href="https://twitter.com/Pixlerfrost" target="_blank">
+     <Link href="https://twitter.com/Pixlerfrost" target="_blank" passHref>
       <Button
        variant="ghost"
        colorScheme="teal"
@@ -47,7 +47,7 @@ function Posts() {
      </Link>
     </ListItem>
     <ListItem>
-     <Link href="https://instagram.com/mohamad__youness" target="_blank">
+     <Link href="https://instagram.com/mohamad__youness" target="_blank" passHref>
       <Button
        variant="ghost"
        colorScheme="teal"

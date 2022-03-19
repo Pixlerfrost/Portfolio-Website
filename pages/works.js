@@ -13,7 +13,7 @@ function Works() {
    </Heading>
    <Paragraph>
     All my projects/works should be pinned repositories on my
-    <Link href="https://github.com/Pixlerfrost">
+    <Link href="https://github.com/Pixlerfrost" passHref>
      <Button
       variant="unstyled"
       colorScheme="teal"

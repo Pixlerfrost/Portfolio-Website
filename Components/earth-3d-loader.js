@@ -26,7 +26,7 @@ export const EarthContainer = forwardRef(({ children }, ref) => (
  </Box>
 ))
 
-const Loader = () => {
+export default function Loader() {
  return (
   <EarthContainer>
    <EarthSpinner />
@@ -34,4 +34,3 @@ const Loader = () => {
  )
 }
 
-export default Loader
